@@ -1,0 +1,74 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('horiz_logo.jpg') center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-inverse {
+    background-color: #323232;
+    border-color: #323232;
+}
+/*
+#svg{
+  background: url('Called to Lead.svg') center no-repeat;
+  max-height: 200px;
+  position: relative;
+  bottom: -200px;
+  
+}
+*/
+
+
+h1 span {
+  background-color: rgba(0, 0, 0, 0.43);
+
+  padding: 0.5rem 0;
+  -webkit-box-shadow: 1rem 0px 0px #ff190f, -1rem 0px 0px rgba(204,197,197,0.75);
+  box-shadow: -1rem 0px 0px #ff190f, -1rem 0px 0px rgba(204,197,197,0.75);
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+
+h2{
+
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 22px;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    padding-top: 15px;
+    font-weight: bold;
+    color: #f9f7f7;
+    font-size: 62px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
